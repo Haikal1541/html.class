@@ -1,0 +1,38 @@
+body
+{
+	background-color: powderblue;
+}
+h1
+{
+	color: darkorange;
+	font-family: papyrus;
+	font-size: 34;
+	border: 5px dotted black;
+
+
+h3
+{
+	color: yellow;
+	border: 2px solid white;
+}
+p
+{
+	color: rebeccapurple;
+	font-size: 20px;
+	background-color: gray;
+	border: 3px solid green;
+}
+table, tr , th , td
+{
+	border: 3px solid black;
+	border-collapse: collapse;
+}
+th
+{
+background-color: lightyellow;
+}
+tr:hover;
+{
+	background-color: darkorange;
+    }
+}
