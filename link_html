@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Links</title>
+
+     <style>
+     a:link
+     {
+
+     	color: yellowgreen;
+     	background-color: transparent;
+        text-decoration: none;
+     }
+     a:visited
+     {
+     	color: sandybrown;
+     	background-color: transparent;
+        text-decoration: none;
+     }
+     a:hover
+     {
+     	color: red;
+     	background-color: yellowgreen;
+     	text-decoration: underline;
+     }
+     a:active
+     {
+
+     	color: beige;
+     	background-color: burlywood;
+     	text-decoration: underline;
+     }
+     }
+
+
+     </style>
+
+
+</head>
+<body>
+
+	<h1>INTERNAL LINK</h1>
+	<a href="html_quatetion">HTML Quotation</a>
+
+	<h1>INTERNAL LINK</h1>
+	<a href="https://kelantan.uitm.edu.my/kb/index.php/en/component/sppagebuilder?view=page&id=46">UITM Cawangan Kelantan</a>
+
+	<h1>TARGET ATTRIBUTES</h1>
+	<a href="html_style.html" target="_self">HTML Style</a>
+	<br>
+	<a href="html_formatting.html" target="_self">HTML formatting</a>
+
+	<h1>IMAGE AS LINK</h1>
+	<a href="html_images.html" target=" _blank" title="button text"><img src="button/hitam.png"></a>
+
+	<a href="html_color.html" target=" _blank" title="button text"><img src="button/hijau.png"></a>
+
+	<h1>BUTTON AS LINK</h1>
+	<button onclick=" document.location='html_images.html' ">HTML IMAGES</button>
+
+</body>
+</html>

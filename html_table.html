@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML table </title>
+
+	<style>
+		table,tr, th, td
+		{
+			border: 2px solid greenyellow;
+			border-collapse: collapse;
+		}
+		th, td
+		{
+			padding: 45px;
+		}
+		th
+		{
+			background-color: skyblue;
+			color: yellow;
+			text-align: right;
+		}
+		tr:nth-child(odd)
+		{
+			background-color: grey;
+		}
+		tr:nth-child(even)
+		{
+			background-color: lightsalmon;
+		}
+		tr
+		{
+			text-align: center;
+		}
+		tr:hover
+		{
+			background-color: gainsboro;
+		}
+	</style>
+</head>
+<body>
+
+	<h1>Basic table</h1>
+	<table style="width: 100%;"> 
+		<caption>Table 1: Basic HTML Table</caption>
+		<tr>
+			<th style="width: 30%;">Name</th>
+			<th style="width: 15%;">Student ID</th>
+			<th style="width: 45%">picture</th>
+			<th style="width: 10%">Phone Num</th>
+			<tr>
+				<td>Danial haikal</td>
+				<td>2023300891</td>
+				<td><img src="image/minnion.jpg" style="height: 100px;"> </td>
+				<td>0179124498</td>
+			</tr>
+
+			<tr style="height: 250px;">
+				<td>Danial haikal</td>
+				<td>2023300891</td>
+				<td><img src="image/bird.gif" style="height: 100px;"> </td>
+				<td>0179124498</td>
+			</tr>
+
+			<tr>
+				<td>Danial haikal</td>
+				<td>2023300891</td>
+				<td><img src="image/small lion.jpg" style="height: 100px;"> </td>
+				<td>0179124498</td>
+			</tr>
+	</table>
+
+	<h1>Colspan</h1>
+
+	<table style="width: 100%;">
+
+		<tr>
+			<th>Name</th>
+			<th>Student ID</th>
+			<th colspan="3">Subject</th>
+		</tr>
+
+		</tr>
+               <td>Danial</td>
+               <td>2023300891</td>
+               <td>IMD318</td>
+               <td>IMD 311</td>
+		</tr>
+		
+	</table>
+	<h1>Rowspan</h1>
+
+	<table style="width: 70%;">
+
+		<tr>
+			<th>Name</th>
+			<td>Danial</td>
+		</tr>
+
+		<tr>
+			<th rowspan="2">Email</th>
+			<td>Damial@gmail.com</td>
+		</tr>
+
+		<tr>
+			<td>nuraini@gmail.com</td>
+		</tr>
+		<tr>
+			<th>Alamat</th>
+			<td rowspan="2">Kelantan</td>
+		</tr>
+		<tr>
+             
+             <tr>Alamat Surat</tr>
+		</tr>
+		
+	</table>
+
+
+
+</body>
+</html>
